@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         // 시스템 BACK 버튼이 눌렸을 경우 토스트 메시지 보여주기
         if(keyCode == KeyEvent.KEYCODE_BACK) {
-            Toast.makeText(this, "시스템 BACK 버튼이 눌렸습니다.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "시스템 BACK 버튼이 눌렸다고", Toast.LENGTH_LONG).show();
 
             return true;
         }
